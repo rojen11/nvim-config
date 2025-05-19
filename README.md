@@ -28,7 +28,7 @@ CR -> Enter
 
 ## Bufferline
 ```n <S-h>```: Navigate to previous buffer  
-```n <S-l>```: Navigate to next buffer
+```n <S-l>```: Navigate to next buffer  
 ```n <leader>bd```: Close current buffer  
 ```n <leader>bp```: Toggle buffer pin
 
@@ -36,5 +36,5 @@ CR -> Enter
 ```n <leader>gg```: Open lazygit
 ## Folding
 ```n za```: Toggle fold under cursor  
-```n zc```: Close fold under cursor
+```n zc```: Close fold under cursor  
 ```n zo```: Open fold under cursor
