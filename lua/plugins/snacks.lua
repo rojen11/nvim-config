@@ -16,6 +16,7 @@ return {
         },
         indent = { enabled = true },
         input = { enabled = true },
+        lazygit = { enabled = true },
         picker = {
             enabled = true,
             sources = {
@@ -49,6 +50,7 @@ return {
         }
     },
     keys = {
-        { "<leader>e", function() Snacks.explorer() end, desc = "File Explorer" },
+        { "<leader>e",  function() Snacks.explorer() end, desc = "File Explorer" },
+        { "<leader>gg", function() Snacks.lazygit() end,  desc = "Lazygit" },
     }
 }

@@ -10,7 +10,7 @@ return { {
         { "<S-l>",      "<cmd>BufferLineCycleNext<cr>",            desc = "Next Buffer" },
         { "[B",         "<cmd>BufferLineMovePrev<cr>",             desc = "Move buffer prev" },
         { "]B",         "<cmd>BufferLineMoveNext<cr>",             desc = "Move buffer next" },
-        { "<leader>cw", "<cmd>bd<cr>",                             desc = "Delete buffer" },
+        { "<leader>bd", "<cmd>bd<cr>",                             desc = "Delete buffer" },
 
     },
     opts = {

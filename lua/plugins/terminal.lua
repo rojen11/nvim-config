@@ -69,12 +69,12 @@ return {
             mode = "n",
             desc = "toggle terminal (horizontal)"
         },
-        {
-            "<leader>git",
-            toggle_lazy_git,
-            mode = "n",
-            desc = "toggle lazygit (float)"
-        },
+        -- {
+        --     "<leader>git",
+        --     toggle_lazy_git,
+        --     mode = "n",
+        --     desc = "toggle lazygit (float)"
+        -- },
         -- {
         --     "<C-t>",
         --     function() toggle_tmux_term("float") end,
