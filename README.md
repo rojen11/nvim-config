@@ -1,3 +1,11 @@
+# Requirements
+
+- https://gitlab.com/dwt1/shell-color-scripts
+- Nodejs v20+
+- Neovim v10+
+- Lazygit
+
+
 # Keymaps
 
 n -> Normal mode  
