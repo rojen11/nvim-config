@@ -2,6 +2,22 @@ return {
     {
         "rcarriga/nvim-dap-ui",
         dependencies = { "mfussenegger/nvim-dap", "nvim-neotest/nvim-nio" },
+        keymaps = {
+            {
+                "<leader>du",
+                function()
+                    require("dapui").toggle()
+                end,
+                desc = "Toggle DAP UI",
+            },
+            {
+                "<leader>dr",
+                function()
+                    require("dapui").repl.toggle()
+                end,
+                desc = "Toggle DAP REPL",
+            },
+        },
         config = function()
             local dap, dapui = require("dap"), require("dapui")
 
